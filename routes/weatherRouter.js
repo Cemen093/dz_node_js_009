@@ -15,7 +15,7 @@ weatherRouter.use("/put", weatherController.putWeather);
 weatherRouter.use("/delete", weatherController.deleteWeather);
 
 weatherRouter.use("/createPost", weatherController.createPost);
-weatherRouter.use("/updatePost", weatherController.createPost);
-weatherRouter.use("/deletePost", weatherController.createPost);
+weatherRouter.use("/updatePost", weatherController.updatePost);
+weatherRouter.use("/deletePost", weatherController.deletePost);
 
 module.exports = weatherRouter;

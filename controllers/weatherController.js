@@ -7,6 +7,12 @@ req.body.name*/
 exports.createPost = function (request, response) {
     response.render("createPost.hbs");
 }
+exports.updatePost = function (request, response) {
+    response.render("createPost.hbs");
+}
+exports.deletePost = function (request, response) {
+    response.render("createPost.hbs");
+}
 
 exports.getByIdWeather = function (request, response) {
     const id = request.params.id;
